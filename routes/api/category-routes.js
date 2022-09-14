@@ -54,6 +54,7 @@ router.put('/:id', (req, res) => {
       res.status(404).json({ message: 'No category found with this id' });
       return;
     }
+    res.send('Update Successful');
   }).catch(err => {
     console.log(err);
     res.status(500).json(err);
