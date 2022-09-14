@@ -11,8 +11,7 @@ router.get('/', (req, res) => {
       'id',
       'product_name',
       'price',
-      'stock',
-      sequelize.literal('(SELECT tag_name from product_tag WHERE product_id = Product.id)', 'tags')
+      'stock'
     ],
     include: [
       {
