@@ -75,3 +75,5 @@ This program uses Sequelize, MySQL2, Express, and DOTEnv
 Theo Greer - tdgreer1203@gmail.com
 
 Project Link: [https://github.com/tdgreer1203/fantastic-umbrella.git](https://github.com/tdgreer1203/fantastic-umbrella.git)
+
+Video Walkthrough: [https://youtu.be/fS1Bnk7WoSs](https://youtu.be/fS1Bnk7WoSs)
